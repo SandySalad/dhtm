@@ -1,0 +1,42 @@
+# ============ Project specific =======================
+
+# media files in package folder
+/hima/**/*.png
+/hima/**/*.svg
+/hima/**/*.gif
+
+# data files in package folder
+/hima/**/*.pkl
+/hima/**/*.csv.tar.gz
+
+# build folder
+/build/
+
+# wandb folders
+wandb/
+
+# pycharm settings: ignore all with some exceptions
+.idea/*
+!.idea/scopes
+!.idea/copyright
+!.idea/codeStyles
+
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# please, place all project specific rules above this line
+# =====================================================
+
+# OSX aux files
+.DS_Store
+
+# python cache
+__pycache__/
+
+# Distribution / packaging
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.last_checked
+
+# VS Code settings
+.vscode/
